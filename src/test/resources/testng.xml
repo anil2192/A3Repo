@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+
+    <!-- Define a test block. A test can contain multiple classes -->
+    <test name="Test1">
+        <classes>
+            <!-- Define a class to run tests from -->
+            <class name="ViaExcelAccValidation.AccountListValidation" />
+<!--            <class name="com.example.tests.MySecondTest" />-->
+        </classes>
+    </test>
+
+</suite>
